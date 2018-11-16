@@ -2,7 +2,7 @@
 #~~~~~~~~~~~~~
 #Hey, so this was designed by lesreaper based on the instructions of Adrian (work and great instructions available here: https://www.pyimagesearch.com/2018/06/25/raspberry-pi-face-recognition/).  Find lesreaper's work at https://github.com/lesreaper/pi-face-recognition, including the raw facial recognition files.
 
-#The only thing I did myself was the adjustments the file now titled turn_on_lamp_with_face.py  That includes the tags in there to enable the starting and ending delays, the commented out print statements, and the post requests.
+#The only thing I did myself was the adjustments the file now titled turn_on_lamp_with_face.py  That includes the tags in there to enable the starting and ending delays, the commented out print statements, and added the post requests.
 
 #In order for this service to work, I am using IFTTT webhooks.  You can find plenty of documentation on that online.  I got some help from BRUH Automation on youtube for the details.  It was this video in particular: https://www.youtube.com/watch?v=-Tkb04xRs-o
 
