@@ -1,21 +1,20 @@
+~~~~~~~~~~~~~
 
-#~~~~~~~~~~~~~
-#Hey, so this was designed by lesreaper based on the instructions of Adrian (work and great instructions available here: https://www.pyimagesearch.com/2018/06/25/raspberry-pi-face-recognition/).  Find lesreaper's work at https://github.com/lesreaper/pi-face-recognition, including the raw facial recognition files.
+Hey, so this was designed by lesreaper based on the instructions of Adrian (work and great instructions available here: https://www.pyimagesearch.com/2018/06/25/raspberry-pi-face-recognition/).  Find lesreaper's work at https://github.com/lesreaper/pi-face-recognition, including the raw facial recognition files.
 
-#The only thing I did myself was the adjustments the file now titled turn_on_lamp_with_face.py  That includes the tags in there to enable the starting and ending delays, the commented out print statements, and added the post requests.
+The only thing I did myself was the adjustments the file now titled turn_on_lamp_with_face.py  That includes the tags in there to enable the starting and ending delays, the commented out print statements, and added the post requests.
 
-#In order for this service to work, I am using IFTTT webhooks.  You can find plenty of documentation on that online.  I got some help from BRUH Automation on youtube for the details.  It was this video in particular: https://www.youtube.com/watch?v=-Tkb04xRs-o
+In order for this service to work, I am using IFTTT webhooks.  You can find plenty of documentation on that online.  I got some help from BRUH Automation on youtube for the details.  It was this video in particular: https://www.youtube.com/watch?v=-Tkb04xRs-o
 
-#The open_CV_installation_steps.sh file will actually compile, build, and install the facial recognition thing from scratch.  Pretty sweet work by lesreaper.  You can follow the same steps on any system, just change the python version number to make sure it's accurate.
+The open_CV_installation_steps.sh file will actually compile, build, and install the facial recognition thing from scratch.  Pretty sweet work by lesreaper.  You can follow the same steps on any system, just change the python version number to make sure it's accurate.
 
-#Essentially the python script recognizes my face and dose a POST call.  This is a message out to IFTTT with my key in it, along with a tag I set (the tag corresponds with the recipe using the webhooks applet).  I then linked that to send a request to my personal server running Home Assistant.  I used DuckDNS.org to provide the DDNS.
+Essentially the python script recognizes my face and dose a POST call.  This is a message out to IFTTT with my key in it, along with a tag I set (the tag corresponds with the recipe using the webhooks applet).  I then linked that to send a request to my personal server running Home Assistant.  I used DuckDNS.org to provide the DDNS.
 
-#Home Assistant then reaches out to my IKEA Tradfri lights, and turns on the appropriate one.  I've starred out the key I use for IFTTT, deleted my encodings.pickle file, and removed my images.  To do the encodings and prep for facial recognition to work, follow the instructions and replace the "your_name_here" folder in the "dataset" folder.
+Home Assistant then reaches out to my IKEA Tradfri lights, and turns on the appropriate one.  I've starred out the key I use for IFTTT, deleted my encodings.pickle file, and removed my images.  To do the encodings and prep for facial recognition to work, follow the instructions and replace the "your_name_here" folder in the "dataset" folder.
 
-#Thanks, and good luck!
-#-Farreep
-
-#~~~~~~~~~~~~
+Thanks, and good luck!
+-Farreep
+~~~~~~~~~~~~
 
 # Getting started
 
